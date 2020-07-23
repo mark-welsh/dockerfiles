@@ -6,5 +6,6 @@ apt autoclean -y && apt autoremove -y
 
 RUN pip install --upgrade pip
 RUN pip install pandas
+RUN pip install ordered-set
 
 RUN mkdir -p /usr/local/bin && chmod 777 /usr/local/bin
